@@ -60,7 +60,7 @@ public class AuthController {
             cookie.setMaxAge(60);
 
             // optional properties
-            cookie.setSecure(true);
+            cookie.setSecure(false);
             cookie.setHttpOnly(true);
             cookie.setPath("/");
 
